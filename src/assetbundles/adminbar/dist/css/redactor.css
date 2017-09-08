@@ -1,0 +1,109 @@
+@charset 'utf-8';
+
+@font-face {
+    font-family: 'GT Walsheim';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/assets/fonts/gt-walsheim/gt-walsheim-bold.eot');
+    src: url('/assets/fonts/gt-walsheim/gt-walsheim-bold.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/gt-walsheim/gt-walsheim-bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/gt-walsheim/gt-walsheim-regular.eot');
+    src: url('/assets/fonts/gt-walsheim/gt-walsheim-regular.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/gt-walsheim/gt-walsheim-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    font-style: italic;
+    font-weight: 400;
+    src: url('/assets/fonts/gt-walsheim/gt-walsheim-regular-oblique.eot');
+    src: url('/assets/fonts/gt-walsheim/gt-walsheim-regular-oblique.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/gt-walsheim/gt-walsheim-regular-oblique.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Tiempos Text';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/tiempos-text/tiempos-text-regular.eot');
+    src: url('/assets/fonts/tiempos-text/tiempos-text-regular.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/tiempos-text/tiempos-text-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Tiempos Text';
+    font-style: italic;
+    font-weight: 400;
+    src: url('/assets/fonts/tiempos-text/tiempos-text-regular-italic.eot');
+    src: url('/assets/fonts/tiempos-text/tiempos-text-regular-italic.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/tiempos-text/tiempos-text-regular-italic.woff') format('woff');
+}
+
+body .redactor-editor {
+    font-family: 'GT Walsheim', sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+}
+
+body .redactor-editor b,
+body .redactor-editor strong {
+    font-weight: 700;
+}
+
+body .redactor-editor em,
+body .redactor-editor i {
+    font-style: italic;
+}
+
+body .redactor-editor p {
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+}
+
+body .redactor-editor p.txt-large {
+    font-size: 18px;
+    line-height: 1.75;
+}
+
+body .redactor-editor p a {
+    box-shadow: inset 0 -1px 0 rgba(51, 51, 153, 0.33);
+    color: #339;
+    text-decoration: none;
+}
+
+body .redactor-editor p a:hover {
+    box-shadow: inset 0 -1px 0 rgba(51, 51, 153, 1);
+}
+
+body .redactor-editor p .button {
+    appearance: none;
+    background: #339;
+    border: none;
+    border-radius: 22px;
+    box-shadow: none;
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 44px;
+    letter-spacing: 0.05em;
+    line-height: 44px;
+    padding: 0 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+body .redactor-editor p .button:hover {
+    background: #FBB;
+    color: #339;
+}

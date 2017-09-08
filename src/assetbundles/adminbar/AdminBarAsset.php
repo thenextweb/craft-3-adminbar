@@ -58,6 +58,7 @@ class AdminBarAsset extends AssetBundle
 
         $this->css = [
             'css/AdminBar.css',
+            'css/redactor.css',
         ];
 
         parent::init();
